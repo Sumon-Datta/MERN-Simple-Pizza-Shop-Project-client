@@ -35,7 +35,7 @@ const PizzaCard = ({ pizza, setPizzas, pizzas }) => {
   return (
     <div className="">
       {/* Card */}
-      <div className="card card-side bg-base-100 shadow-xl gap-4 p-4">
+      <div className="card card-side bg-base-100 shadow-xl gap-4 p-3">
         <figure className="w-full">
           <img className="h-[300px] w-[300px]" src={photourl} alt="Movie" />
         </figure>
